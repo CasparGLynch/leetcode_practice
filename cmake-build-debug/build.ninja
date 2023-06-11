@@ -55,6 +55,12 @@ build CMakeFiles/untitled.dir/move_zeroes.c.o: C_COMPILER__untitled_Debug /home/
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
 
+build CMakeFiles/untitled.dir/helper.c.o: C_COMPILER__untitled_Debug /home/caspar/CLionProjects/leetcode_practice/helper.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/helper.c.o.d
+  FLAGS = -g -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled
@@ -63,7 +69,7 @@ build CMakeFiles/untitled.dir/move_zeroes.c.o: C_COMPILER__untitled_Debug /home/
 #############################################
 # Link the executable untitled
 
-build untitled: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/move_zeroes.c.o
+build untitled: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/move_zeroes.c.o CMakeFiles/untitled.dir/helper.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/untitled.dir
   POST_BUILD = :
