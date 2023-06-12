@@ -34,12 +34,5 @@ void moveZeroes(int* nums, int numsSize){
      }
 }
 
-int main(){
-    int arr[] = {0,1,0,2,3};
-    moveZeroes(arr, 5);
-    for (int i = 0; i < 5; i++) {
-        printf("%d ", *(arr + i));
-    }
-}
 
 
